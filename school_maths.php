@@ -27,10 +27,10 @@
     border: 1px solid #333;
     font-size: 12px;
   }
-  .cell.odd {
+  /* .cell.odd {
     background-color: orange;
     color: white;
-  }
+  } */
   /* X-axis below grid */
   .x-axis {
     display: grid;
