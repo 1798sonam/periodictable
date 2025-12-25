@@ -135,9 +135,12 @@ body{
     display:none;
 }
 </style>
+<link rel="stylesheet" href="style.css" />
+
 </head>
 
 <body>
+<?php include 'header.php' ?>
 
 <div class="stepper-card">
 
