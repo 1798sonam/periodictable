@@ -42,7 +42,8 @@ $menu = [
         "Ministry of Neuclear" => "#",
         "Ministry of Space" => "#",
         "Ministry of Science and Technology" => "#"
-    ]
+    ],
+    "Reverse The Process" => "reverse_process.php",
 ];
 
 
