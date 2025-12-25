@@ -39,7 +39,7 @@ $departments= [
 
 
 
-<h2 align="center">Department SOnam</h2>
+<h2 align="center">Department</h2>
 
 
 
