@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Engineering Branches</title>
+
+<!-- Bootstrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+<?php include 'header.php' ?>
+
+<div class="container py-5">
+    <h2 class="text-center mb-4 fw-bold">Engineering Branches</h2>
+
+    <div class="row g-3">
+
+        <!-- START BUTTONS -->
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Agricultural Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Acoustical Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Architectural Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Aeronautical Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Automotive Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Aerospace Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Biomedical Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Ceramic Technology</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Computer Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Chemical Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Civil Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Electrical Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Environmental Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Electronics & Communication Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Information Technology</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Industrial Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Instrumentation & Control Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Fabrication Technology</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Fire Technology</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Mechanical Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Marine Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Manufacturing Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Materials Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Mechatronics Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Metallurgy Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Textile Designing</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Textile Manufacturing Technology</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Textile Processing Technology</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Telecommunications Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Transportation Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Systems Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Robotics Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Renewable Energy</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Petroleum Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Plastics Engineering</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Power Electronics</a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="branch-btn">Printing Technology</a>
+        </div>
+
+        <!-- END BUTTONS -->
+
+    </div>
+</div>
+
+</body>
+</html>
