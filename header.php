@@ -25,25 +25,7 @@ $menu = [
             "Maths" => "industries_science_maths.php",
             "Biology" => "industries_science_biology.php"
         ],
-        "Department" => [
-            "Concept Visualization" => "#",
-            "Budgeting Team" => "#",
-            "Investor Relations" => "#",
-            "Product Development" => "#",
-            "Quality and Standards" => "#",
-            "Manufacturing" => "#",
-            "Production" => "#",
-            "Operations and Logistics" => "#",
-            "Business Development" => "#",
-            "Marketing" => "#",
-            "Sales" => "#",
-            "IT Automation" => "#",
-            "Research and Development" => "#",
-            "Finance and Accounts" => "#",
-            "Legal and Compliance" => "#",
-            "Administration" => "#",
-            "Closed-Loop Feedback and Research Optimization" => "#"
-        ]
+        "Department" => "department.php",
     ],
     "Market Research" => [
         "Market Research" => "market_research.php"
