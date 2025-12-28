@@ -12,6 +12,14 @@
 
 <body>
 <?php include 'header.php'; ?>
+<?php
+$depth = [
+    ['title'=>'School','url'=>'school.php'],
+    ['title'=>'Science','url'=>'science.php'],
+    ['title'=>'Physics','url'=>'school_physics.php']
+];
+pageDepth($depth);
+?>
 
 <div class="container py-5">
     <h2 class="text-center mb-4 fw-bold">Physics</h2>
