@@ -82,24 +82,24 @@ $menu = [
 
 
 <?php
-function pageDepth($items){
-    $reverse = array_reverse($items);
-    echo '<div class="page-depth">';
+// function pageDepth($items){
+//     $reverse = array_reverse($items);
+//     echo '<div class="page-depth">';
 
-    // UP LINKS
-    echo '<div class="depth-up">';
-    foreach ($reverse as $k => $item) {
-        if ($k === 0) continue; // skip current page
-        echo '<a href="'.$item['url'].'">↑ '.$item['title'].'</a>';
-    }
-    echo '</div>';
+//     // UP LINKS
+//     echo '<div class="depth-up">';
+//     foreach ($reverse as $k => $item) {
+//         if ($k === 0) continue; // skip current page
+//         echo '<a href="'.$item['url'].'">↑ '.$item['title'].'</a>';
+//     }
+//     echo '</div>';
 
-    // CURRENT PAGE
-    echo '<div class="depth-current">';
-    echo end($items)['title'];
-    echo '</div>';
+//     // CURRENT PAGE
+//     echo '<div class="depth-current">';
+//     echo end($items)['title'];
+//     echo '</div>';
 
-    echo '</div>';
-}
+//     echo '</div>';
+// }
 ?>
 
