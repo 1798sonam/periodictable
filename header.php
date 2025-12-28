@@ -79,27 +79,31 @@ $menu = [
         ?>
     </ul>
 </nav>
-
-
 <?php
 function pageDepth($items){
     $reverse = array_reverse($items);
+    $total = count($items);
+
     echo '<div class="page-depth">';
 
-    // UP LINKS
+    // UP LINKS (PAGE NUMBERS)
     echo '<div class="depth-up">';
     foreach ($reverse as $k => $item) {
-        if ($k === 0) continue; // skip current page
-        echo '<a href="'.$item['url'].'">↑ '.$item['title'].'</a>';
+        if ($k === 0) continue; // current page skip
+
+        $pageNo = $total - $k;
+        echo '<a href="'.$item['url'].'">↑ Page '.$pageNo.'</a>';
     }
     echo '</div>';
 
-    // CURRENT PAGE
+    // CURRENT PAGE NUMBER
     echo '<div class="depth-current">';
-    echo end($items)['title'];
+    echo 'Page '.$total;
     echo '</div>';
 
     echo '</div>';
 }
 ?>
+
+
 
